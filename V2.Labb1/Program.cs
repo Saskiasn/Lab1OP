@@ -32,6 +32,9 @@ class Program
 
         }
         Console.WriteLine($"Ditt flygg till {userInput} ")
+            Console.WriteLine("test");
+        Console.WriteLine("test");
+
     }
 }
 
