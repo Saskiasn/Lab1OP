@@ -27,13 +27,13 @@ class Program
                 break;
 
             case "2":
-                Console.Writeline("Du har valt flyget från New York till Stockholm.");
+                Console.WriteLine("Du har valt flyget från New York till Stockholm.");
+                break;
 
 
         }
-        Console.WriteLine($"Ditt flygg till {userInput} ")
-            Console.WriteLine("test");
-        Console.WriteLine("test");
+        Console.WriteLine($"Ditt flygg till {userInput} ");
+        Console.WriteLine("Test friday");
 
     }
 }
