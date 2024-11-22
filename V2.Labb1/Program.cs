@@ -33,7 +33,7 @@ class Program
 
         }
         Console.WriteLine($"Ditt flygg till {userInput} ");
-        Console.WriteLine("Test friday");
+        Console.WriteLine("Test friday"); Hejsan hoppsan
 
     }
 }
