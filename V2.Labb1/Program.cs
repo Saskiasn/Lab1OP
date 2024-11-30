@@ -46,8 +46,7 @@ namespace V2.Labb1
             switch (inputChar)
             {
                 case '1':
-                    Console.WriteLine("****************************************");
-                    Console.WriteLine("");
+                    Console.WriteLine("****************************************\n");
                     Console.WriteLine($"Avgångstid från Stockholm är {stockholmHourDepart:D2}:{stockholmMinuteDepart:D2}");
                     
                     // Ankomsttid i New York
@@ -73,9 +72,7 @@ namespace V2.Labb1
                     int stockholmHourArrival = newYorkHourDepart + timeDifference + travelHours;
                     int stockholmMinuteArrival = newYorkMinuteDepart + travelMinutes;
                    
-                    Console.WriteLine($"Din ankomsttid i Stockholm är: {stockholmHourArrival:D2}:{stockholmMinuteArrival:D2}");
-                    Console.WriteLine("");
-                    Console.WriteLine("");
+                    Console.WriteLine($"Din ankomsttid i Stockholm är: {stockholmHourArrival:D2}:{stockholmMinuteArrival:D2}\n\n");
                     Console.WriteLine("****************************************\n");
                     Console.WriteLine("Programmet avslutas.");
                     Environment.Exit(0);
